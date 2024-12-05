@@ -8,7 +8,8 @@ common warnings
 
 library
     import:           warnings
-    exposed-modules:  One.Trebuchet
+    exposed-modules:  One.Trebuchet,
+                      Two.CubeConondrum
     build-depends:    base ^>=4.18,                     
                       text,
                       containers,
