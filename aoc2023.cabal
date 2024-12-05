@@ -1,0 +1,27 @@
+cabal-version:      3.0
+name:               aoc2023
+version:            0.1.0.0
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+library
+    import:           warnings
+    exposed-modules:  One.Trebuchet
+    build-depends:    base ^>=4.18,                     
+                      text,
+                      containers,
+                      vector,
+                      split,
+                      array,
+                      megaparsec,
+                      mtl,
+                      psqueues,
+                      search-algorithms,
+                      fgl,
+                      unordered-containers,
+                      hashable,
+                      algebraic-graphs
+    hs-source-dirs:   .
+    default-language: GHC2021
